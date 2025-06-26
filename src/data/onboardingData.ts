@@ -1,0 +1,57 @@
+export const onboardingData = [
+  {
+    key: 'logo',
+    logoOnly: true,
+    logo: require('../assets/logo.png'),
+  },
+  {
+    key: 'news',
+    title: 'News Aggregator',
+    description: 'Platform that collects, organizes, and provides news from multiple sources, enabling users to access the latest news updates.',
+    image: require('../assets/news.png'),
+    icon: require('../assets/icons/news-white.png'),
+  },
+  {
+    key: 'media',
+    title: 'Media Connect',
+    description: 'Platform or feature that brings together media professionals, enabling networking, collaboration, and resource sharing.',
+    image: require('../assets/media.png'),
+    icon: require('../assets/icons/media-white.png'),
+  },
+  {
+    key: 'pr',
+    title: 'PR Agency',
+    description: 'Manages public relations, helping businesses build and maintain a positive image through media, messaging, and strategic planning.',
+    image: require('../assets/pr-agency.png'),
+    icon: require('../assets/icons/pr.png'),
+  },
+  {
+    key: 'freelance',
+    title: 'Freelancers Hub',
+    description: 'Connects skilled freelancers with businesses and individuals seeking services, fostering collaboration and flexible work opportunities.',
+    image: require('../assets/freelancer.png'),
+    icon: require('../assets/icons/freelance-white.png'),
+  },
+  {
+    key: 'startup',
+    title: 'Startup/Investors Connect',
+    description: 'A platform that connects startups and investors, facilitating networking, funding opportunities, and growth.',
+    image: require('../assets/startup.png'),
+    icon: require('../assets/icons/startup.png'),
+  },
+  {
+    key: 'podcast',
+    title: 'Podcast Services',
+    description: 'Offers end-to-end solutions for creating, managing, and distributing podcasts, helping users produce, promote, and monetize their shows and content.',
+    image: require('../assets/podcast.png'),
+    icon: require('../assets/icons/podcast-white.png'),
+  },
+  {
+    key: 'events',
+    title: 'Events Services',
+    description: 'Provides end-to-end solutions for planning, managing, and executing events, including logistics, promotion, networking, and feedback analysis to enhance event experiences.',
+    image: require('../assets/events.png'),
+    icon: require('../assets/icons/events-white.png'),
+    isLast: true,
+  },
+]; 
